@@ -1,5 +1,5 @@
 function toggleDetail(e) {
-    const target = $(e.target).addClass("active")
+    const target = $(e.target) 
 
     if($(target).hasClass("active")) {
         $(target).html("More Info").removeClass("active")
@@ -9,7 +9,7 @@ function toggleDetail(e) {
 
 
 
-    $(target).html("Less Info")
+    
     const item = $(target).parents(".about-exp-item")
     const detail = $(item).children(".about-exp-item-detail")
     
